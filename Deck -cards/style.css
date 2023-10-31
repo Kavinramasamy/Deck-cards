@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 920px) {
+    .image {
+        height: 65%;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container {
+        width: 75vh;
+    }
+}
